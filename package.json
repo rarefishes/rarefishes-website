@@ -1,0 +1,9 @@
+{
+  "name": "rarefishes.crypto",
+  "version": "1.0.0",
+  "description": "The best NFT project ever made",
+  "main": "index.js",
+  "repository": "https://github.com/RareFishes/rarefishes.crypto.git",
+  "author": "vinisaveg",
+  "license": "MIT"
+}
