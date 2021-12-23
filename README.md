@@ -33,3 +33,27 @@ Clone this repo:
   cd rarefishes.crypto
   
 ```
+
+## Running 🏃
+
+Development mode:
+
+```
+
+  yarn dev
+  
+```
+
+Production mode:
+
+```
+
+  yarn build
+  
+```
+
+```
+
+  yarn start
+  
+```
