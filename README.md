@@ -17,3 +17,19 @@ RareFishes is a NFT collection created on 2021 by three young relatives fellas, 
 - [`Jest`](https://jestjs.io)
 - [`ts-jest`](https://kulshekhar.github.io/ts-jest/)
 - [`cypress`](https://www.cypress.io/)
+
+## Installing 🚧
+
+Clone this repo:
+
+```
+
+  git clone https://github.com/RareFishes/rarefishes.crypto.git
+  
+```
+
+```
+
+  cd rarefishes.crypto
+  
+```
