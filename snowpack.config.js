@@ -4,6 +4,7 @@ module.exports = {
       src: '/dist',
       public: { url: '/', static: true }
     },
+    plugins: ['@snowpack/plugin-typescript'],
     packageOptions: {
       /* ... */
     },
