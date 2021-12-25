@@ -57,3 +57,7 @@ Production mode:
   yarn start
   
 ```
+
+## Issues
+
+Found any bug? Feel free to report it [here](https://github.com/RareFishes/rarefishes.crypto/issues).
