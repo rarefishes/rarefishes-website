@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "snowpack dev",
-    "build": "snowpack build"
+    "build": "snowpack build",
+    "test": "jest"
   },
   "dependencies": {
     "react": "^17.0.2",
