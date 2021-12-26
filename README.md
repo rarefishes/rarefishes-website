@@ -25,13 +25,13 @@ Clone this repo:
 ```
 
   git clone https://github.com/RareFishes/rarefishes.crypto.git
-  
+
 ```
 
 ```
 
   cd rarefishes.crypto
-  
+
 ```
 
 ## Running 🏃
@@ -41,7 +41,7 @@ Development mode:
 ```
 
   yarn dev
-  
+
 ```
 
 Production mode:
@@ -49,13 +49,23 @@ Production mode:
 ```
 
   yarn build
-  
+
 ```
 
 ```
 
   yarn start
-  
+
+```
+
+## Testing 🏃
+
+Running the tests:
+
+```
+
+  yarn test
+
 ```
 
 ## Issues
