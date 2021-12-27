@@ -68,6 +68,24 @@ Running the tests:
 
 ```
 
+## Development :gear:
+
+Install husky for git hooks:
+
+```
+
+  npx husky install
+
+```
+
+Start coding...
+
+```
+
+  yarn dev
+
+```
+
 ## Issues
 
 Found any bug? Feel free to report it [here](https://github.com/RareFishes/rarefishes.crypto/issues).
