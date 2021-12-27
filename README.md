@@ -1,5 +1,7 @@
 # rarefishes.crypto
 
+[![App Workflow](https://github.com/rarefishes/rarefishes.crypto/actions/workflows/app-workflow.yaml/badge.svg?branch=main)](https://github.com/rarefishes/rarefishes.crypto/actions/workflows/app-workflow.yaml)
+
 The RareFishes official website
 
 ## About ❓
