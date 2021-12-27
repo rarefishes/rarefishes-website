@@ -1,22 +1,22 @@
-import React from "react";
-import "@testing-library/jest-dom/extend-expect";
-import { render } from "@testing-library/react";
+import React from 'react'
+import '@testing-library/jest-dom/extend-expect'
+import { render } from '@testing-library/react'
 
-import App from "../src/app/App";
+import App from '../src/app/App'
 
-describe("Example test", () => {
-  it("Should log a Hello test!", () => {
-    const message = "Hello test!";
+describe('Example test', () => {
+  it('Should log a Hello test!', () => {
+    const message = 'Hello test!'
 
-    expect(message).toBe("Hello test!");
-    expect(message).not.toBe("Hello world!");
-  });
+    expect(message).toBe('Hello test!')
+    expect(message).not.toBe('Hello world!')
+  })
 
-  it("Should render the App component", async () => {
-    const { findByText } = render(<App />);
+  it('Should render the App component', async () => {
+    const { findByText } = render(<App />)
 
-    const app = await findByText("Hello from rarefishes.crypto");
+    const app = await findByText('Hello from rarefishes.crypto')
 
-    expect(app).toBeInTheDocument();
-  });
-});
+    expect(app).toBeInTheDocument()
+  })
+})
