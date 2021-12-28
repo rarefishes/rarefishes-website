@@ -14,6 +14,10 @@ RareFishes is a NFT collection created on 2021 by three young relatives fellas, 
 - [`Typescript`](https://www.typescriptlang.org)
 - [`styled-components`](https://styled-components.com/)
 
+## Build Tool :hammer:
+
+- [`Snowpack`](https://www.snowpack.dev/)
+
 ## Testing ✔️
 
 - [`Jest`](https://jestjs.io)
