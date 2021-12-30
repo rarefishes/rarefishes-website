@@ -74,6 +74,14 @@ Running the tests:
 
 ```
 
+Running cypress for end2end tests:
+
+```
+
+  yarn test:cypress
+
+```
+
 ## Development :gear:
 
 Install husky for git hooks:
