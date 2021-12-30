@@ -31,3 +31,16 @@ jobs:
 
       - name: Run tests
         run: yarn test
+
+  cypress-run:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run end-to-end tests
+        uses: cypress-io/github-action@v2
+        with:
+          start: yarn dev
