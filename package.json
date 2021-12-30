@@ -10,6 +10,7 @@
     "dev": "snowpack dev",
     "build": "snowpack build",
     "test": "jest",
+    "test:cypress": "cypress open",
     "prettify": "prettier --write .",
     "lint": "eslint ./src --ext .tsx --ext .ts"
   },
