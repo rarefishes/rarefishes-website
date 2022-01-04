@@ -1,15 +1,20 @@
 import React, { FunctionComponent } from 'react'
 
 import { Button } from '../styles/shared/button/Button'
+import { Link } from '../styles/shared/link/Link'
 
 const App: FunctionComponent = () => {
   return (
     <div>
       <h1> Hello from rarefishes.crypto</h1>
 
-      <Button color="primary" fontSize="small">
-        Primary
+      <Button color="secondary" fontSize="small" margin={['10px', '10px']}>
+        Button secondary
       </Button>
+
+      <Link color="primary" fontSize="small" margin={['10px', '10px']}>
+        Button primary
+      </Link>
     </div>
   )
 }
