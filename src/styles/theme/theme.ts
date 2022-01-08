@@ -10,9 +10,9 @@ export default {
     }
   },
   textSize: {
-    small: 16,
-    medium: 18,
-    title: 32,
-    big: 36
+    small: '1em',
+    medium: '1.125em',
+    title: '1.5em',
+    big: '2em'
   }
 }

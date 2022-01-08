@@ -13,10 +13,10 @@ declare module 'styled-components' {
       }
     }
     textSize: {
-      small: number
-      medium: number
-      big: number
-      title: number
+      small: string
+      medium: string
+      big: string
+      title: string
     }
   }
 }
