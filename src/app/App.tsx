@@ -1,14 +1,18 @@
 import React, { FunctionComponent } from 'react'
 import { ThemeProvider } from 'styled-components'
 
+import Navbar from '../components/navbar/Navbar'
+
 import GlobalStyle from '../styles/global'
 import theme from '../styles/theme/theme'
 
-const App: FunctionComponent = ({ children }) => {
+const App: FunctionComponent = () => {
   return (
     <>
       <GlobalStyle />
-      <ThemeProvider theme={theme}>{children}</ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <Navbar />
+      </ThemeProvider>
     </>
   )
 }
