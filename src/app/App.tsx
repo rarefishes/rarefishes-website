@@ -1,21 +1,15 @@
 import React, { FunctionComponent } from 'react'
+import { ThemeProvider } from 'styled-components'
 
-import { Button } from '../styles/shared/button/Button'
-import { Link } from '../styles/shared/link/Link'
+import GlobalStyle from '../styles/global'
+import theme from '../styles/theme/theme'
 
-const App: FunctionComponent = () => {
+const App: FunctionComponent = ({ children }) => {
   return (
-    <div>
-      <h1> Hello from rarefishes.crypto</h1>
-
-      <Button color="secondary" fontSize="small" margin={['10px', '10px']}>
-        Button secondary
-      </Button>
-
-      <Link color="primary" fontSize="small" margin={['10px', '10px']}>
-        Button primary
-      </Link>
-    </div>
+    <>
+      <GlobalStyle />
+      <ThemeProvider theme={theme}>{children}</ThemeProvider>
+    </>
   )
 }
 
