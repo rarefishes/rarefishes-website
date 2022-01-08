@@ -2,7 +2,7 @@ import React from 'react'
 import '@testing-library/jest-dom/extend-expect'
 import { render } from './test.utils'
 
-import App from '../src/app/App'
+import Index from '../src/pages/Index'
 
 describe('Example test', () => {
   it('Should log a Hello test!', () => {
@@ -13,7 +13,7 @@ describe('Example test', () => {
   })
 
   it('Should render the App component', async () => {
-    const { findByText } = render(<App />)
+    const { findByText } = render(<Index />)
 
     const app = await findByText('Hello from rarefishes.crypto')
 
