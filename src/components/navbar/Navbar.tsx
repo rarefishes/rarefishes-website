@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 
-import { Nav, LogoIcon, NavItemsList, NavItem, Link } from './navbar.styles'
+import { Nav, NavIcon, NavIconLines, LogoIcon, NavItemsList, NavItem, Link } from './navbar.styles'
 import logo from '../../assets/icons/rarefishes-logo-icon.png'
 
 const Navbar: FunctionComponent = () => {
@@ -26,6 +26,10 @@ const Navbar: FunctionComponent = () => {
           </Link>
         </NavItem>
       </NavItemsList>
+
+      <NavIcon>
+        <NavIconLines />
+      </NavIcon>
     </Nav>
   )
 }

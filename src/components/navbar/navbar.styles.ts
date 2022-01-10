@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
+  position: relative;
   width: 100%;
   height: 80px;
   display: flex;
@@ -8,8 +9,49 @@ export const Nav = styled.nav`
   padding: 0px 50px;
 `
 
+export const NavIcon = styled.div`
+  position: absolute;
+  display: flex;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 200ms ease;
+
+  :active {
+    transform: scale(1.04);
+  }
+`
+
+export const NavIconLines = styled.div`
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: ${(props) => props.theme.colors.text.black};
+  transition: all 200ms ease;
+
+  :before,
+  :after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: ${(props) => props.theme.colors.text.black};
+    margin-top: 8px;
+    display: block;
+  }
+
+  :before {
+    transform: translateY(1px);
+  }
+`
+
 export const LogoIcon = styled.img`
   height: 45px;
+  transition: all 200ms ease;
+
+  :active {
+    transform: scale(1.04);
+  }
 `
 
 export const LogoTitle = styled.h1`
