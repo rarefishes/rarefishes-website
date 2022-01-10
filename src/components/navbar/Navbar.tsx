@@ -5,12 +5,12 @@ import logo from '../../assets/icons/rarefishes-logo-icon.png'
 
 const Navbar: FunctionComponent = () => {
   return (
-    <Nav>
+    <Nav data-testid="test-navbar">
       <Link href="/">
         <LogoIcon src={logo} alt="RAREFISHES logo icon" />
       </Link>
 
-      <NavItemsList>
+      <NavItemsList data-testid="test-navbar-itens-list">
         <NavItem>
           <Link href="#project">The project</Link>
         </NavItem>
@@ -27,7 +27,7 @@ const Navbar: FunctionComponent = () => {
         </NavItem>
       </NavItemsList>
 
-      <NavIcon>
+      <NavIcon data-testid="test-navbar-icon">
         <NavIconLines />
       </NavIcon>
     </Nav>
