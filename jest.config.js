@@ -8,6 +8,7 @@ module.exports = {
     '^.+\\.tsx?$': 'ts-jest'
   },
   moduleNameMapper: {
-    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "identity-obj-proxy"
+    "\\.(css|styl|less|sass|scss)$": "identity-obj-proxy",
+    "\\.(png|jpg)$": "<rootDir>/test/__mocks__/fileMock.js"
   }
 }
