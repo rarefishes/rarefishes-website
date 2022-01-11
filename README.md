@@ -2,11 +2,11 @@
 
 [![App Workflow](https://github.com/rarefishes/rarefishes.crypto/actions/workflows/app-workflow.yaml/badge.svg?branch=main)](https://github.com/rarefishes/rarefishes.crypto/actions/workflows/app-workflow.yaml)
 
-The RareFishes official website
+The RAREFISHES official website
 
 ## About ❓
 
-RareFishes is a NFT collection created on 2021 by three young relatives fellas, with it's first drop planned for early 2022.
+RAREFISHES is a NFT collection created on 2021 by three young relatives fellas, with it's first drop planned for early 2022.
 
 ## Techs 💻
 
