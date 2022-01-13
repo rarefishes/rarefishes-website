@@ -24,7 +24,7 @@ describe('Navbar test', () => {
   it('Should render the Navbar Items List component', async () => {
     const { findByTestId } = render(<Navbar />)
 
-    const navItemsList = await findByTestId('test-navbar-itens-list')
+    const navItemsList = await findByTestId('test-navbar-items-list')
 
     expect(navItemsList).toBeInTheDocument()
   })
