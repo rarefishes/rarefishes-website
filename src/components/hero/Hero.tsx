@@ -8,13 +8,20 @@ import HeroFish from '../../assets/images/hero-fish.png'
 const Hero: FunctionComponent = () => {
   return (
     <Wrapper>
-      <HeroWrapper>
+      <HeroWrapper data-testid="test-hero">
         <TextWrapper>
           <HeroTitle>Join the fishing</HeroTitle>
 
           <HeroText>Catch all the rarefishes you can on this brand new NFT project.</HeroText>
 
-          <Link href="" color="secondary" fontSize="medium" margin={['0px', '0px']}>
+          <Link
+            data-testid="test-hero-link"
+            href="https://opensea.io/collection/rarefishes"
+            target="_blank"
+            color="secondary"
+            fontSize="medium"
+            margin={['0px', '0px']}
+          >
             Fish now
           </Link>
         </TextWrapper>
