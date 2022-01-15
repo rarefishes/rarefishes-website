@@ -33,4 +33,12 @@ describe('Index page', () => {
 
     cy.get('h1').should('have.text', 'Join the fishing')
   })
+
+  it('Should have a link to the collection', () => {
+    const link = cy.get('[data-testid="test-hero-link"]')
+
+    link.should('be.visible')
+    link.should('have.text', 'Fish now')
+    link.should('have.attr', 'href', 'https://opensea.io/collection/rarefishes')
+  })
 })
