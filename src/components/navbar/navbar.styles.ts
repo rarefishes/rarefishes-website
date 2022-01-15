@@ -6,7 +6,12 @@ export const Nav = styled.nav`
   height: 80px;
   display: flex;
   align-items: center;
-  padding: 0px 50px;
+  padding: 0px 150px;
+  z-index: 9;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0px 50px;
+  }
 
   @media only screen and (max-width: 780px) {
     .dropdown-enable {
