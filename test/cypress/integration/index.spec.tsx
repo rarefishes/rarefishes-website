@@ -31,6 +31,6 @@ describe('Index page', () => {
   it('Should have a welcome title', () => {
     cy.get('h1').should('be.visible')
 
-    cy.get('h1').should('have.text', ' Hello from rarefishes.crypto')
+    cy.get('h1').should('have.text', 'Join the fishing')
   })
 })
