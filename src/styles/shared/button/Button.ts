@@ -16,6 +16,7 @@ export const ButtonStyles = css<ButtonProps>`
   border-radius: 4px;
   cursor: pointer;
   transition: opacity 200ms ease;
+  text-transform: uppercase;
 
   &&:hover {
     opacity: 0.9;
