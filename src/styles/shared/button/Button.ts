@@ -18,6 +18,7 @@ export const ButtonStyles = css<ButtonProps>`
   transition: opacity 200ms ease;
   text-transform: uppercase;
   text-decoration: none;
+  border: 1px solid ${(props) => (props.color === 'primary' ? props.theme.colors.text.black : 'transparent')};
 
   &&:hover {
     opacity: 0.9;
