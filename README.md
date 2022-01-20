@@ -1,6 +1,6 @@
 [<p align="center"><img src=".github/assets/rarefishes-banner.jpg" width="100%"/></p>](https://rarefishes.crypto)
 
-[![App Workflow](https://github.com/rarefishes/rarefishes.crypto/actions/workflows/app-workflow.yaml/badge.svg?branch=main)](https://github.com/rarefishes/rarefishes.crypto/actions/workflows/app-workflow.yaml)
+[![App Workflow](https://github.com/rarefishes/rarefishes.crypto/actions/workflows/app-workflow.yaml/badge.svg?branch=main)](https://github.com/rarefishes/rarefishes-website/actions/workflows/app-workflow.yaml)
 
 The RAREFISHES official website
 
@@ -30,13 +30,13 @@ Clone this repo:
 
 ```
 
-  git clone https://github.com/RareFishes/rarefishes.crypto.git
+  git clone https://github.com/rarefishes/rarefishes-website.git
 
 ```
 
 ```
 
-  cd rarefishes.crypto
+  cd rarefishes-website
 
 ```
 
@@ -102,4 +102,4 @@ Start coding...
 
 ## Issues
 
-Found any bug? Feel free to report it [here](https://github.com/RareFishes/rarefishes.crypto/issues).
+Found any bug? Feel free to report it [here](https://github.com/RareFishes/rarefishes-website/issues).
