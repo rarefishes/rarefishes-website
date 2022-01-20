@@ -2,11 +2,13 @@ import styled from 'styled-components'
 
 export const HeroWrapper = styled.section`
   width: 100%;
+  max-width: 1600px;
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 100px 0px;
+  margin: 0 auto;
 `
 
 export const TextWrapper = styled.div`
