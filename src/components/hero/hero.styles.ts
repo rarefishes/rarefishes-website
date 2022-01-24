@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const HeroWrapper = styled.section`
   width: 100%;
-  max-width: 1600px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -34,6 +33,7 @@ export const HeroText = styled.h2`
 
 export const ImageWrapper = styled.div`
   width: 50%;
+  position: relative;
 
   @media only screen and (max-width: 790px) {
     display: none;

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const ProjectWrapper = styled.section`
   width: 100%;
-  max-width: 1600px;
   height: 600px;
   position: relative;
   display: flex;
