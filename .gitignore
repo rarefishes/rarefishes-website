@@ -4,3 +4,5 @@ build
 
 cypress/videos
 cypress/screenshots
+
+coverage
