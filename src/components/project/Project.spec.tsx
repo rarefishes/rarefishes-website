@@ -4,7 +4,7 @@ import { render } from '../../../test/test.utils'
 
 import Project from './Project'
 
-describe('Navbar test', () => {
+describe('Project test', () => {
   it('Should render the Project section', async () => {
     const { findByTestId } = render(<Project />)
 
