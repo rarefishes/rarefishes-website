@@ -8,7 +8,7 @@ import Logo from '../../assets/icons/rarefishes-logo-icon.png'
 const Footer: FunctionComponent = () => {
   return (
     <Wrapper>
-      <FooterWrapper>
+      <FooterWrapper data-testid="test-footer-wrapper">
         <LogoWrapper>
           <LogoImage src={Logo} alt="The RAREFISHES logo" />
           <LogoText>RAREFISHES</LogoText>
