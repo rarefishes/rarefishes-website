@@ -30,6 +30,10 @@ export const TextWrapper = styled.div`
     align-items: flex-start;
     order: 2;
   }
+
+  @media only screen and (max-width: 600px) {
+    padding: 100px 50px;
+  }
 `
 
 export const TextGroup = styled.div``
