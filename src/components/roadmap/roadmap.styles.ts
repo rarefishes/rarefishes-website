@@ -9,6 +9,8 @@ export const RoadmapWrapper = styled.section`
   margin: 0 auto;
   padding: 150px 0px 100px 0px;
   background-color: #efefef;
+
+  margin-bottom: 100px;
 `
 
 export const RoadmapSection = styled.div`
