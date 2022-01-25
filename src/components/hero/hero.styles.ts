@@ -16,6 +16,10 @@ export const TextWrapper = styled.div`
   @media only screen and (max-width: 790px) {
     width: 100%;
   }
+
+  @media only screen and (max-width: 600px) {
+    padding: 0px 50px;
+  }
 `
 
 export const HeroTitle = styled.h1`
