@@ -54,6 +54,10 @@ export const AboutWrapper = styled.div`
     padding: 100px 0px;
     align-items: flex-start;
   }
+
+  @media only screen and (max-width: 600px) {
+    padding: 100px 50px;
+  }
 `
 
 export const TextWrapper = styled.div``
