@@ -14,13 +14,13 @@ const Navbar: FunctionComponent = () => {
 
       <NavItemsList data-testid="test-navbar-items-list" className={`dropdown-${isNavOpen ? 'enable' : 'disable'}`}>
         <NavItem>
-          <Link href="#project">The project</Link>
+          <Link href="#the-project">The project</Link>
         </NavItem>
         <NavItem>
           <Link href="#roadmap">Roadmap</Link>
         </NavItem>
         <NavItem>
-          <Link href="#aboutus">About us</Link>
+          <Link href="#about-us">About us</Link>
         </NavItem>
         <NavItem>
           <Link target="_blank" href="https://opensea.io/vinisaveg">

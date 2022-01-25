@@ -20,7 +20,7 @@ import FishNumberTwentyEight from '../../assets/images/rarefish-28.jpg'
 const Project: FunctionComponent = () => {
   return (
     <Wrapper>
-      <ProjectWrapper data-testid="test-project-wrapper">
+      <ProjectWrapper id="the-project" data-testid="test-project-wrapper">
         <FishesWrapper data-testid="test-project-fish-images">
           <FishImage alt="The RAREFISH number 3" src={FishNumberThree} />
           <FishImage alt="The RAREFISH number 6" src={FishNumberSix} />

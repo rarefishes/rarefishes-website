@@ -6,7 +6,7 @@ import { RoadmapWrapper, RoadmapSection, Path, PathTitle, PathDate, PathRelease 
 const Roadmap: FunctionComponent = () => {
   return (
     <Wrapper>
-      <RoadmapWrapper>
+      <RoadmapWrapper id="roadmap" data-testid="test-roadmap-wrapper">
         <RoadmapSection>
           <Path className="first-line">
             <PathTitle>First Drop</PathTitle>
