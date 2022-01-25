@@ -9,7 +9,7 @@ import RarefishesImage from '../../assets/images/rarefishes.gif'
 const Mint: FunctionComponent = () => {
   return (
     <Wrapper>
-      <MintWrapper>
+      <MintWrapper data-testid="test-mint-wrapper">
         <TextWrapper>
           <TextGroup>
             <MintTitle>Try to catch a RAREFISH!</MintTitle>
