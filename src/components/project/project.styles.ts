@@ -35,6 +35,7 @@ export const FishImage = styled.img`
   :hover {
     transform: scale(1.1);
     box-shadow: 0px 5px 12px 5px rgba(0, 0, 0, 0.27);
+    z-index: 1;
   }
 `
 
