@@ -9,4 +9,8 @@ export const Wrapper = styled.div`
   @media only screen and (max-width: 1024px) {
     padding: 0px 50px;
   }
+
+  @media only screen and (max-width: 600px) {
+    padding: 0px;
+  }
 `
