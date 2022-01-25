@@ -35,7 +35,7 @@ const Roadmap: FunctionComponent = () => {
               <span>?</span>
             </PathDate>
 
-            <PathRelease>Starting the collection with the first 30 fishes drop.</PathRelease>
+            <PathRelease>Mint your own unique fish after 30% fishes sold.</PathRelease>
           </Path>
         </RoadmapSection>
       </RoadmapWrapper>

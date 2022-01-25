@@ -33,8 +33,8 @@ const Project: FunctionComponent = () => {
             <AboutTitle>What is a RAREFISH?</AboutTitle>
 
             <AboutText>
-              A RAREFISH is a unique fish in a family of 100 to catch for each drop. There is not much space in this
-              aquarium, so go get yours!
+              A RAREFISH is a unique fish in a weekly drop family of fishes. There is not much space in this aquarium,
+              so go get yours!
             </AboutText>
 
             <Link
