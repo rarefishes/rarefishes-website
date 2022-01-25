@@ -4,6 +4,7 @@ import Hero from '../components/hero/Hero'
 import Project from '../components/project/Project'
 import Mint from '../components/mint/Mint'
 import Roadmap from '../components/roadmap/Roadmap'
+import Footer from '../components/footer/Footer'
 
 const Index: FunctionComponent = () => {
   return (
@@ -12,6 +13,7 @@ const Index: FunctionComponent = () => {
       <Project />
       <Mint />
       <Roadmap />
+      <Footer />
     </>
   )
 }
