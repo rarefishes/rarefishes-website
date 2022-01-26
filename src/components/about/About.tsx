@@ -22,8 +22,8 @@ const About: FunctionComponent = () => {
 
             <Description>Creator & Social Media</Description>
 
-            <Anchor color="secondary" target="_blank" href="https://instagram.com/">
-              <SocialMedia>@vitorhugo</SocialMedia>
+            <Anchor color="secondary" target="_blank" href="https://instagram.com/v.torugoo">
+              <SocialMedia>@v.torugoo</SocialMedia>
             </Anchor>
           </Card>
 
@@ -46,8 +46,8 @@ const About: FunctionComponent = () => {
 
             <Description>Creator & Artist</Description>
 
-            <Anchor color="secondary" target="_blank" href="https://instagram.com/">
-              <SocialMedia>@duduzin23</SocialMedia>
+            <Anchor color="secondary" target="_blank" href="https://instagram.com/eduardohsart">
+              <SocialMedia>@eduardohsart</SocialMedia>
             </Anchor>
           </Card>
         </CardsWrapper>
