@@ -16,7 +16,7 @@ const Hero: FunctionComponent = () => {
 
           <Link
             data-testid="test-hero-link"
-            href="https://opensea.io/collection/rarefishes"
+            href="https://opensea.io/collection/rarefishesofficial"
             target="_blank"
             color="secondary"
             fontSize="medium"

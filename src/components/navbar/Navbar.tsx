@@ -23,7 +23,7 @@ const Navbar: FunctionComponent = () => {
           <Link href="#about-us">About us</Link>
         </NavItem>
         <NavItem>
-          <Link target="_blank" href="https://opensea.io/vinisaveg">
+          <Link target="_blank" href="https://opensea.io/rarefishesofficial">
             The collection
           </Link>
         </NavItem>

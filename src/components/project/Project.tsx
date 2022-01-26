@@ -39,7 +39,7 @@ const Project: FunctionComponent = () => {
 
             <Link
               data-testid="test-project-link"
-              href="https://opensea.io/collection/rarefishes"
+              href="https://opensea.io/collection/rarefishesofficial"
               target="_blank"
               color="primary"
               fontSize="medium"

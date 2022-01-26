@@ -18,7 +18,7 @@ const Mint: FunctionComponent = () => {
 
             <Link
               data-testid="test-mint-link"
-              href="https://opensea.io/collection/rarefishes"
+              href="https://opensea.io/collection/rarefishesofficial"
               target="_blank"
               color="primary"
               fontSize="medium"

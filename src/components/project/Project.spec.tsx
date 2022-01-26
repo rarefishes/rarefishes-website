@@ -28,6 +28,6 @@ describe('Project test', () => {
     const projectCollectionLink = await findByTestId('test-project-link')
 
     expect(projectCollectionLink).toBeVisible()
-    expect(projectCollectionLink).toHaveAttribute('href', 'https://opensea.io/collection/rarefishes')
+    expect(projectCollectionLink).toHaveAttribute('href', 'https://opensea.io/collection/rarefishesofficial')
   })
 })
