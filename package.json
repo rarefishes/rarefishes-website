@@ -6,6 +6,7 @@
   "repository": "https://github.com/RareFishes/rarefishes.crypto.git",
   "author": "vinisaveg",
   "license": "MIT",
+  "homepage": "https://rarefishes.github.io/rarefishes-website/",
   "scripts": {
     "dev": "snowpack dev",
     "build": "snowpack build",
