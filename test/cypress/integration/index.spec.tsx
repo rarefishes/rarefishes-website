@@ -39,6 +39,6 @@ describe('Index page', () => {
 
     link.should('be.visible')
     link.should('have.text', 'Fish now')
-    link.should('have.attr', 'href', 'https://opensea.io/collection/rarefishes')
+    link.should('have.attr', 'href', 'https://opensea.io/collection/rarefishesofficial')
   })
 })
