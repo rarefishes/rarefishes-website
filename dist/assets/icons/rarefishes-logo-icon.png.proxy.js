@@ -1,1 +1,0 @@
-export default "./dist/assets/icons/rarefishes-logo-icon.png";
