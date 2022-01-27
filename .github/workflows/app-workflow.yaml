@@ -61,8 +61,11 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
+      - name: Predeploy
+        run: yarn predeploy
+
       - name: Deploy to github pages
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
           branch: gh-pages
-          folder: .
+          folder: build
