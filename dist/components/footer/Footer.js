@@ -1,4 +1,4 @@
-import React from "../../../_snowpack/pkg/react.js";
+import React from "../../../snowpack/pkg/react.js";
 import {Wrapper} from "../../styles/shared/wrapper/Wrapper.js";
 import {FooterWrapper, LogoWrapper, LogoImage, LogoText} from "./footer.styles.js";
 import Logo from "../../assets/icons/rarefishes-logo-icon.png.proxy.js";

@@ -1,4 +1,4 @@
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import styled from "../../../snowpack/pkg/styled-components.js";
 export const Nav = styled.nav`
   position: relative;
   width: 100%;

@@ -1,4 +1,4 @@
-import React from "../../../_snowpack/pkg/react.js";
+import React from "../../../snowpack/pkg/react.js";
 import {Wrapper} from "../../styles/shared/wrapper/Wrapper.js";
 import {RoadmapWrapper, RoadmapSection, Path, PathTitle, PathDate, PathRelease} from "./roadmap.styles.js";
 const Roadmap = () => {

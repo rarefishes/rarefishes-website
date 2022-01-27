@@ -1,4 +1,4 @@
-import React from "../../_snowpack/pkg/react.js";
+import React from "../../snowpack/pkg/react.js";
 import Hero from "../components/hero/Hero.js";
 import Project from "../components/project/Project.js";
 import Mint from "../components/mint/Mint.js";

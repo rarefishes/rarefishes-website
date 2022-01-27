@@ -1,4 +1,4 @@
-import styled, {css} from "../../../../_snowpack/pkg/styled-components.js";
+import styled, {css} from "../../../../snowpack/pkg/styled-components.js";
 export const ButtonStyles = css`
   font-size: ${(props) => String(props.theme.textSize[props.fontSize]) + "px"};
   background: ${(props) => props.color === "primary" ? props.theme.colors.primary : props.theme.colors.secondary};

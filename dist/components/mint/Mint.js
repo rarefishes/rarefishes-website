@@ -1,4 +1,4 @@
-import React from "../../../_snowpack/pkg/react.js";
+import React from "../../../snowpack/pkg/react.js";
 import {Link} from "../../styles/shared/link/Link.js";
 import {Wrapper} from "../../styles/shared/wrapper/Wrapper.js";
 import {MintWrapper, TextWrapper, TextGroup, MintTitle, MintText, ImageWrapper, FishesImage} from "./mint.styles.js";

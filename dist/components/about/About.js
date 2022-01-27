@@ -1,4 +1,4 @@
-import React from "../../../_snowpack/pkg/react.js";
+import React from "../../../snowpack/pkg/react.js";
 import {Wrapper} from "../../styles/shared/wrapper/Wrapper.js";
 import {Anchor} from "../../styles/shared/anchor/Anchor.js";
 import {AboutWrapper, AboutTitle, CardsWrapper, Card, FishImage, Description, Name, SocialMedia} from "./about.styles.js";

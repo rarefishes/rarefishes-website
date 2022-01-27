@@ -1,4 +1,4 @@
-import {createGlobalStyle} from "../../_snowpack/pkg/styled-components.js";
+import {createGlobalStyle} from "../../snowpack/pkg/styled-components.js";
 export default createGlobalStyle`
     * {
         margin: 0;

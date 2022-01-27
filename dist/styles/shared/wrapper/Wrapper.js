@@ -1,4 +1,4 @@
-import styled from "../../../../_snowpack/pkg/styled-components.js";
+import styled from "../../../../snowpack/pkg/styled-components.js";
 export const Wrapper = styled.div`
   max-width: 1520px;
   padding: 0 150px;

@@ -1,4 +1,4 @@
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import styled from "../../../snowpack/pkg/styled-components.js";
 export const MintWrapper = styled.section`
   width: 100%;
   height: 600px;

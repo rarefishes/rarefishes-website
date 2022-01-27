@@ -1,4 +1,4 @@
-import React, {useState} from "../../../_snowpack/pkg/react.js";
+import React, {useState} from "../../../snowpack/pkg/react.js";
 import {Nav, NavIcon, NavIconLines, LogoIcon, NavItemsList, NavItem, Link} from "./navbar.styles.js";
 import logo from "../../assets/icons/rarefishes-logo-icon.png.proxy.js";
 const Navbar = () => {
