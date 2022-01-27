@@ -1,1 +1,1 @@
-export default "/dist/assets/images/rarefish-11.jpg";
+export default "./dist/assets/images/rarefish-11.jpg";
