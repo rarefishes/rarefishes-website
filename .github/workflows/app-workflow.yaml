@@ -58,5 +58,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
       - name: Deploy to github pages
         run: yarn deploy
