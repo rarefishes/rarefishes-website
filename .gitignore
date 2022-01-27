@@ -1,8 +1,0 @@
-node_modules
-
-build
-
-cypress/videos
-cypress/screenshots
-
-coverage
