@@ -34,7 +34,7 @@ const Project = () => {
     src: FishNumberTwentyEight
   })), /* @__PURE__ */ React.createElement(AboutWrapper, null, /* @__PURE__ */ React.createElement(TextWrapper, null, /* @__PURE__ */ React.createElement(AboutTitle, null, "What is a RAREFISH?"), /* @__PURE__ */ React.createElement(AboutText, null, "A RAREFISH is a unique fish in a weekly drop family of fishes. There is not much space in this aquarium, so go get yours!"), /* @__PURE__ */ React.createElement(Link, {
     "data-testid": "test-project-link",
-    href: "https://opensea.io/collection/rarefishesofficial",
+    href: "https://opensea.io/collection/rarefishes-official",
     target: "_blank",
     color: "primary",
     fontSize: "medium",

@@ -8,7 +8,7 @@ const Hero = () => {
     "data-testid": "test-hero"
   }, /* @__PURE__ */ React.createElement(TextWrapper, null, /* @__PURE__ */ React.createElement(HeroTitle, null, "Join the fishing"), /* @__PURE__ */ React.createElement(HeroText, null, "Catch all the rarefishes you can on this brand new NFT project."), /* @__PURE__ */ React.createElement(Link, {
     "data-testid": "test-hero-link",
-    href: "https://opensea.io/collection/rarefishesofficial",
+    href: "https://opensea.io/collection/rarefishes-official",
     target: "_blank",
     color: "secondary",
     fontSize: "medium",

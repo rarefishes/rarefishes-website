@@ -8,7 +8,7 @@ const Mint = () => {
     "data-testid": "test-mint-wrapper"
   }, /* @__PURE__ */ React.createElement(TextWrapper, null, /* @__PURE__ */ React.createElement(TextGroup, null, /* @__PURE__ */ React.createElement(MintTitle, null, "Try to catch a RAREFISH!"), /* @__PURE__ */ React.createElement(MintText, null, "Connect your wallet and catch a RAREFISH while they still out there!"), /* @__PURE__ */ React.createElement(Link, {
     "data-testid": "test-mint-link",
-    href: "https://opensea.io/collection/rarefishesofficial",
+    href: "https://opensea.io/collection/rarefishes-official",
     target: "_blank",
     color: "primary",
     fontSize: "medium",

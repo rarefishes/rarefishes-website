@@ -21,7 +21,7 @@ const Navbar = () => {
     href: "#about-us"
   }, "About us")), /* @__PURE__ */ React.createElement(NavItem, null, /* @__PURE__ */ React.createElement(Link, {
     target: "_blank",
-    href: "https://opensea.io/rarefishesofficial"
+    href: "https://opensea.io/collection/rarefishes-official"
   }, "The collection"))), /* @__PURE__ */ React.createElement(NavIcon, {
     "data-testid": "test-navbar-icon",
     onClick: () => setIsNavOpen(!isNavOpen)
