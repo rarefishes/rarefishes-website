@@ -15,27 +15,27 @@ const Roadmap: FunctionComponent = () => {
               <span>28/01</span>
             </PathDate>
 
-            <PathRelease>Starting the collection with the first 30 fishes drop.</PathRelease>
+            <PathRelease>Starting the collection with the first 10 fishes drop.</PathRelease>
           </Path>
 
           <Path className="second-line">
-            <PathTitle>Second Drop</PathTitle>
-
-            <PathDate>
-              <span>?</span>
-            </PathDate>
-
-            <PathRelease>Second drop available after 20% fishes sold.</PathRelease>
-          </Path>
-
-          <Path>
             <PathTitle>Custom Minting</PathTitle>
 
             <PathDate>
               <span>?</span>
             </PathDate>
 
-            <PathRelease>Mint your own unique fish after 30% fishes sold.</PathRelease>
+            <PathRelease>Custom Minting available after 25% fishes sold.</PathRelease>
+          </Path>
+
+          <Path>
+            <PathTitle>Merch Store</PathTitle>
+
+            <PathDate>
+              <span>?</span>
+            </PathDate>
+
+            <PathRelease>Awesome Merch Store after 50% fishes sold.</PathRelease>
           </Path>
         </RoadmapSection>
       </RoadmapWrapper>
