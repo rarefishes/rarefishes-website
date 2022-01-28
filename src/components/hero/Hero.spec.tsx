@@ -20,6 +20,6 @@ describe('Hero test', () => {
 
     expect(link).toBeInTheDocument()
     expect(link).toHaveTextContent('Fish now')
-    expect(link).toHaveAttribute('href', 'https://opensea.io/collection/rarefishesofficial')
+    expect(link).toHaveAttribute('href', 'https://opensea.io/collection/rarefishes-official')
   })
 })
