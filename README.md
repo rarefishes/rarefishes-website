@@ -6,7 +6,7 @@ The RAREFISHES official website
 
 ## About ❓
 
-RAREFISHES is a NFT collection created on 2021 by three young relatives fellas, with it's first drop planned for early 2022.
+RAREFISHES is a NFT collection created on 2021 by three young relatives fellas, with it's first drop on 28/01/2022.
 
 ## Techs 💻
 
