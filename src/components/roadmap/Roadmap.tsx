@@ -29,13 +29,13 @@ const Roadmap: FunctionComponent = () => {
           </Path>
 
           <Path>
-            <PathTitle>Merch Store</PathTitle>
+            <PathTitle>Mini Game</PathTitle>
 
             <PathDate>
               <span>?</span>
             </PathDate>
 
-            <PathRelease>Awesome Merch Store after 50% fishes sold.</PathRelease>
+            <PathRelease>Awesome Mini Game after 50% fishes sold.</PathRelease>
           </Path>
         </RoadmapSection>
       </RoadmapWrapper>
