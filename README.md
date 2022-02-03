@@ -1,4 +1,4 @@
-[<p align="center"><img src=".github/assets/rarefishes-banner.jpg" width="100%"/></p>](https://rarefishes.crypto)
+[<p align="center"><img src=".github/assets/rarefishes-banner.jpg" width="100%"/></p>](https://www.rarefishes.site)
 
 [![App Workflow](https://github.com/rarefishes/rarefishes.crypto/actions/workflows/app-workflow.yaml/badge.svg?branch=main)](https://github.com/rarefishes/rarefishes-website/actions/workflows/app-workflow.yaml)
 
